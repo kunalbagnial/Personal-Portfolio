@@ -127,7 +127,7 @@ body {
 }
 
 .header_area.navbar_fixed .nav-item > .nav-link:hover {
-    color: pink !important;
+    color: #563bd1 !important;
 }
 
 /*-- section: hero --*/
@@ -152,6 +152,7 @@ body {
 
 .hero_section .intro_area p {
     padding: 0 0 20px;
+    line-height: 1.5;
 }
 
 /*-- section: services --*/

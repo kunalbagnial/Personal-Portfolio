@@ -42,8 +42,8 @@
                 <div class="col-lg-6 d-flex align-items-center">
                     <div class="intro_area">
                         <h2 class="f_size_65 f_700 mb_20 text-white" data-aos="zoom-in">Hello, I'm Kunal</h2>
-                        <p class="f_size_20 text-white" data-aos="fade-up">I am a web developer based in Punjab. I &#9825; to code modern and responsive layouts for web.</p>
-                        <a href="#work" class="m_btn btn_white" data-aos="fade-up">About Me</a>
+                        <p class="f_size_20 text-white" data-aos="fade-up" data-aos-delay="400">I am a web developer based in Punjab. I &#9825; to code modern and responsive layouts for web.</p>
+                        <a href="#work" class="m_btn btn_white" data-aos="fade-up" data-aos-delay="800">About Me</a>
                     </div>
                 </div>
 
@@ -61,7 +61,7 @@
         <div class="container">
             <h2 class="t_color_dark f_size_30 f_700 mb_40 text-center">What I Do</h2>
             <div class="row">
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up">
                     <div class="s_box" style="border-bottom: 2px solid #fa6fd1;">
                         <span class="s_icon color_1">
                             <img src="imgs/drawing.png" height="40" width="40">
@@ -71,7 +71,7 @@
                     </div>
                 </div><!-- column -->
 
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up">
                     <div class="s_box" style="border-bottom: 2px solid #aa6ffa;">
                         <span class="s_icon color_2">
                             <img src="imgs/ui.png" height="40" width="40">
@@ -81,13 +81,13 @@
                     </div>
                 </div><!-- column -->
 
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up">
                     <div class="s_box" style="border-bottom: 2px solid #f3af4e;">
                         <span class="s_icon color_3">
                             <img src="imgs/handshake.png" height="40" width="40">
                         </span>
                         <h3 class="t_color_dark f_size_18 f_700">Mentor</h3>
-                        <p>I genuinely love to help and teach the skills which i have learned so far to complete beginners new to web development.</p>
+                        <p>I genuinely love to help and teach the skills which i have learned so far to complete beginners coming new to web development.</p>
                     </div>
                 </div><!-- column -->
             </div><!-- row -->
@@ -231,7 +231,7 @@
     <section class="contact_area">
         <div class="container">
             <h2 class="t_color_dark f_size_30 f_700 mb_40 text-center">Contact Me</h2>
-            <div class="contact_me_box">
+            <div class="contact_me_box" data-aos="zoom-in">
                 <div class="row no-gutters">
                     <div class="col-lg-6 col-md-6">
                         <div class="contact_info">
@@ -291,9 +291,9 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/main.js"></script>
     <script>
-        AOS.init();
-
+        AOS.init({
+            duration: 800,
+            once: true,
+        });
     </script>
-</body>
-
-</html>
+</body></html>
