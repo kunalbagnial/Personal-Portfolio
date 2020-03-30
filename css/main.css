@@ -11,6 +11,7 @@ body {
     line-height: 1.6;
     position: relative;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 /*-- Utilities --*/
@@ -246,6 +247,41 @@ body {
 
 .skill_theme .progress .progress-bar {
     background: #3d64f4;
+}
+
+[data-aos="html"],
+[data-aos="bootstrap"],
+[data-aos="php"],
+[data-aos="css"],
+[data-aos="javascript"],
+[data-aos="codeigniter"] {
+    width: 10%;
+    -webkit-transition-property: width;
+    transition-property: width;
+}
+
+[data-aos="html"].aos-animate {
+    width: 92%;
+}
+
+[data-aos="bootstrap"].aos-animate {
+    width: 90%;
+}
+
+[data-aos="php"].aos-animate {
+    width: 62%;
+}
+
+[data-aos="css"].aos-animate {
+    width: 85%;
+}
+
+[data-aos="javascript"].aos-animate {
+    width: 50%;
+}
+
+[data-aos="codeigniter"].aos-animate {
+    width: 60%;
 }
 
 /* section: portfolio_gallery */
