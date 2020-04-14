@@ -6,13 +6,11 @@ body {
     padding: 0;
     color: #677294;
     font-size: 17px;
-    /*    font-family: 'Nunito', sans-serif;*/
     font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     line-height: 1.6;
     position: relative;
     overflow-x: hidden;
-    scroll-behavior: smooth;
 }
 
 /*-- Utilities --*/
@@ -188,7 +186,7 @@ body {
 }
 
 .my_services .s_icon.color_3 {
-    background: #f3af4e;
+    background: #fa6666;
 }
 
 .my_services .s_box h3 {
@@ -394,11 +392,7 @@ body {
     border-left: 1px solid #ddd;
 }
 
-.contact_form input.form-control {
-    border-radius: 0 !important;
-    font-size: 16px;
-}
-
+.contact_form input.form-control,
 .contact_form textarea.form-control {
     border-radius: 0 !important;
     font-size: 16px;
