@@ -30,7 +30,7 @@
           
           // redirect to form with success code.
           if(mail($to, $subject, $email_content, $email_headers)) {
-              header("Location: htttps://devkunal.000webhostapp.com/index.php?success=1");
+              header("Location: https://devkunal.000webhostapp.com/index.php?success=1");
           }        
       }     
   } 

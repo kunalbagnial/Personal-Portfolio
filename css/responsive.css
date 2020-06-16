@@ -1,31 +1,36 @@
 /*-- media queries --*/
 
 @media (max-width: 575.98px) {
-
-    html,
     body {
-        font-size: 16px;
-        line-height: 1.5;
+        font-size: 15px;
     }
 
     .hero_section {
         padding-top: 120px !important;
     }
 
+    .hero_section .intro_area p {
+        font-size: 16px;
+    }
+
     .f_size_65 {
-        font-size: 36px;
+        font-size: 36px !important;
     }
 
     .f_size_30 {
         font-size: 24px !important;
     }
 
-    .f_size_20 {
-        font-size: 18px !important;
-    }
-
     .my_skills .skill_theme.mb_on_sm {
         margin-bottom: 0;
+    }
+
+    .contact_area .contact_form_box {
+        border-left: none;
+    }
+
+    .contact_area .contact_info_box {
+        border-bottom: 1px solid #ddd;
     }
 }
 
